@@ -1,0 +1,68 @@
+/* Overide Bootstrap CSS */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+p {
+  margin-bottom: 27px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 27px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 13px;
+  margin-bottom: 27px;
+  font-weight: 400;
+}
+.btn-success {
+  background-color: #46C37C !important;
+  transition-property: background-color;
+  transition-duration: .2s;
+  font-weight: 700;
+  font-size: 18px;
+  border: none !important;
+}
+.btn-success:hover {
+  background-color: #3cb972 !important;
+  border: none;
+}
+/* Main CSS */
+.book__hero {
+  width: 100%;
+  background-image: linear-gradient(0deg, #2B8551, #339F61);
+  padding: 10vh 0;
+}
+.book__hero__image {
+  max-width: 100%;
+}
+.book__hero--white {
+  color: #ffffff;
+}
+.book__hero__masthead {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.book__hero__title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.book__btn-group {
+  padding-top: 18px;
+}
+.book__btn-group__price {
+  font-weight: 700;
+  font-size: 18px;
+}
+.book__btn-group__date {
+  font-weight: 400;
+  font-size: 13px;
+}
