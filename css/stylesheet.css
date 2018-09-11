@@ -78,16 +78,49 @@ h2 {
   width: 100%;
   padding: 15vh 0;
 }
+.book__summary__list {
+  padding-left: 20px;
+}
 .book__summary__item {
   font-weight: 700;
   margin: 18px 0;
 }
+.book__praises__love {
+  padding-top: 1em;
+}
 .book__praises__tweet {
   width: 100%;
-  padding: 15px;
+  padding: 18px;
   border: 1px solid #339F61;
   border-radius: 6px;
+  margin: 18px 0;
+}
+.book__praises__tweet__account {
+  font-size: 14px;
+  color: #919191;
+  padding-left: 9px;
 }
 .book__praises__tweet__hr {
   border-top: 1px solid #339F61;
+  margin: 18px -18px;
+}
+.footer__social__icons {
+  margin-top: 108px;
+  margin-bottom: 72px;
+}
+.footer__social__medium,
+.footer__social__twitter {
+  display: inline-block;
+  border: 1px solid #339F61;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0 3px;
+}
+.fab {
+  color: #339F61;
+  font-size: 12px;
+  vertical-align: bottom;
+  position: relative;
+  bottom: 3px;
 }
