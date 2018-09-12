@@ -42,6 +42,17 @@ color: #2d8b56;
   border: none;
 }
 /* Main CSS */
+.navigation__link {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+.navigation__link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
 .book__hero {
   width: 100%;
   background-image: linear-gradient(0deg, #2B8551, #339F61);
@@ -100,11 +111,7 @@ color: #2d8b56;
 }
 .book__praises__tweet {
   width: 100%;
-  padding: 18px;
-  border: 1px solid #339F61;
-  border-radius: 6px;
-  margin: 18px 0;
-  min-height: 90%;
+  margin: 1em 0;
 }
 .book__praises__tweet__account {
   font-size: 14px;
