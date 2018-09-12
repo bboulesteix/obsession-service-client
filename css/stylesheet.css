@@ -23,6 +23,12 @@ h2 {
   margin-bottom: 27px;
   font-weight: 400;
 }
+a {
+  color: #339F61;
+}
+a:hover {
+color: #2d8b56;
+}
 .btn-success {
   background-color: #46C37C !important;
   transition-property: background-color;
@@ -44,6 +50,7 @@ h2 {
 .book__hero__image,
 .book__summary__image {
   max-width: 100%;
+  padding-bottom: 2em;
 }
 .book__hero--white {
   color: #ffffff;
@@ -66,6 +73,9 @@ h2 {
 .book__btn-group {
   padding-top: 18px;
 }
+.book__btn-group__button {
+  padding-bottom: 1em;
+}
 .book__btn-group__price {
   font-weight: 700;
   font-size: 18px;
@@ -86,7 +96,7 @@ h2 {
   margin: 18px 0;
 }
 .book__praises__love {
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 .book__praises__tweet {
   width: 100%;
@@ -94,6 +104,7 @@ h2 {
   border: 1px solid #339F61;
   border-radius: 6px;
   margin: 18px 0;
+  min-height: 90%;
 }
 .book__praises__tweet__account {
   font-size: 14px;
@@ -119,7 +130,7 @@ h2 {
 }
 .fab {
   color: #339F61;
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: bottom;
   position: relative;
   bottom: 3px;
