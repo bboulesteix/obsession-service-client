@@ -56,7 +56,8 @@ color: #2d8b56;
 .book__hero {
   width: 100%;
   background-image: linear-gradient(0deg, #2B8551, #339F61);
-  padding: 10vh 0;
+  padding-top: 4em;
+  padding-bottom: 2em;
 }
 .book__hero__image,
 .book__summary__image {
