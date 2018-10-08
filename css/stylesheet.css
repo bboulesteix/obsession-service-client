@@ -86,7 +86,10 @@ color: #2d8b56;
   padding-top: 18px;
 }
 .book__btn-group__button {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+}
+.book__btn-group__description {
+padding-bottom: 1em;
 }
 .book__btn-group__price {
   font-weight: 700;
