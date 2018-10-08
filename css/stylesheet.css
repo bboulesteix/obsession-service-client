@@ -96,6 +96,13 @@ color: #2d8b56;
   font-weight: 400;
   font-size: 13px;
 }
+.book__btn-group__date a {
+  color: #FFFFFF;
+}
+.book__btn-group__date a:hover {
+  color: #FFFFFF;
+  opacity: 0.7;
+}
 .book__summary {
   width: 100%;
   padding: 15vh 0;
