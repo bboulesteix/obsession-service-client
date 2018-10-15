@@ -73,7 +73,8 @@ color: #2d8b56;
 }
 .book__hero__title,
 .book__summary__title,
-.book__praises__title {
+.book__praises__title,
+.view__more__title {
   font-weight: 700;
   font-size: 36px;
 }
@@ -129,6 +130,9 @@ padding-bottom: 1em;
 .book__praises__tweet__hr {
   border-top: 1px solid #339F61;
   margin: 18px -18px;
+}
+.view__more__links {
+  padding-top: 5em;
 }
 .footer__social__icons {
   margin-top: 108px;
