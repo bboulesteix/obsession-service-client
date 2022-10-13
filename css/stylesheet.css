@@ -4,7 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif !important;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -152,5 +152,4 @@ a:hover {
   font-size: 14px;
   vertical-align: bottom;
   position: relative;
-  bottom: 3px;
 }
