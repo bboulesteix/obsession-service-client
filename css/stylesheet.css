@@ -4,7 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -24,15 +24,15 @@ h2 {
   font-weight: 400;
 }
 a {
-  color: #339F61;
+  color: #339f61;
 }
 a:hover {
-color: #2d8b56;
+  color: #2d8b56;
 }
 .btn-success {
-  background-color: #46C37C !important;
+  background-color: #46c37c !important;
   transition-property: background-color;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
   font-weight: 700;
   font-size: 18px;
   border: none !important;
@@ -55,7 +55,7 @@ color: #2d8b56;
 }
 .book__hero {
   width: 100%;
-  background-image: linear-gradient(0deg, #2B8551, #339F61);
+  background-image: linear-gradient(0deg, #2b8551, #339f61);
   padding-top: 4em;
   padding-bottom: 2em;
 }
@@ -90,7 +90,7 @@ color: #2d8b56;
   padding-bottom: 0.5em;
 }
 .book__btn-group__description {
-padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 .book__btn-group__price {
   font-weight: 700;
@@ -101,7 +101,7 @@ padding-bottom: 1em;
   font-size: 13px;
 }
 .book__btn-group__date a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.7;
 }
 .book__summary {
@@ -128,7 +128,7 @@ padding-bottom: 1em;
   padding-left: 9px;
 }
 .book__praises__tweet__hr {
-  border-top: 1px solid #339F61;
+  border-top: 1px solid #339f61;
   margin: 18px -18px;
 }
 .view__more__links {
@@ -141,14 +141,14 @@ padding-bottom: 1em;
 .footer__social__medium,
 .footer__social__twitter {
   display: inline-block;
-  border: 1px solid #339F61;
+  border: 1px solid #339f61;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   margin: 0 3px;
 }
 .fab {
-  color: #339F61;
+  color: #339f61;
   font-size: 14px;
   vertical-align: bottom;
   position: relative;
