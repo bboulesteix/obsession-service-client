@@ -16,7 +16,6 @@ h1 {
   font-size: 36px;
   line-height: 36px;
   margin-bottom: 27px;
-  font-weight: 700;
 }
 h2 {
   font-size: 13px;
@@ -130,6 +129,9 @@ a:hover {
 .book__praises__tweet__hr {
   border-top: 1px solid #339f61;
   margin: 18px -18px;
+}
+.book__praises__tweet__facette:hover {
+  filter: brightness(97%);
 }
 .view__more__links {
   padding-top: 5em;
